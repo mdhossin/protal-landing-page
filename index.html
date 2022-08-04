@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Landing Page</title>
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header start -->
+
+    <header>
+      <nav class="nav">
+        <div class="nav__logo">
+          <h1 class="nav__logo-main">Sii</h1>
+          <h2>
+            <span>SII Concatel</span>
+            PORTAL DEL EMPLEADO
+          </h2>
+        </div>
+
+        <ul class="nav__right">
+          <div class="nav__login">
+            <div class="nav__star-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="nav__login-text">
+              Bienvenido/a, <span> pilar.aranda </span>
+            </p>
+
+            <div class="nav__login-icon">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </div>
+          </div>
+
+          <div class="nav__menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- start showcase section -->
+    <section class="showcase">
+
+        <div class="showcase__overlay">
+            <div class="showcase__content">
+                <h1>Enjoy IT</h1>
+                <p>Passion <span>for </span> technology</p>
+            </div>
+        </div>
+    </section>
+
+     <!--end showcase section -->
+
+     <!-- start search and category section  -->
+
+     <section class="search__category">
+      <div class="search__category__search-boxs">
+        <h3 class="search__category__heading">Who is who</h3>
+        <p class="search__category__desc">
+          Busca el e-mail de contacto de los empleados/as de la Compania con quien desees comunicarte.
+        </p>
+        <p class="search__category__desc">
+          *Recuerda que solo puedes buscar mediante el nombre o el apellido completo de tu companero/a.
+        </p>
+
+        <div class="search__category__inputs">
+          <div class="search__category__inputs-group">
+
+            <label for="Nombre:">Nombre:</label>
+            <input type="text" placeholder="Nombre.....">
+
+          </div>
+          <div class="search__category__inputs-group">
+
+            <label for="Apellidos:">Apellidos:</label>
+            <input type="text" placeholder="Apellidos.....">
+
+          </div>
+        </div>
+
+        <div class="search__category-submit">
+          <button>
+            <i class="fa-solid fa-magnifying-glass search"></i>BUSCAR</button>
+        </div>
+      </div>
+      <div class="search__category__wrapper">
+        <div class="search__category__wrapper-topbar">
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div class="search__category__wrapper__boxs">
+          
+          <div class="search__category__wrapper__box">
+            <i class="fa-solid fa-fingerprint icon"></i>
+            <p>Marcajes</p>
+          </div>
+          <div class="search__category__wrapper__box">
+            <svg fill="#0258af" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 7 4 C 5.3545455 4 4 5.3545455 4 7 L 4 43 C 4 44.645455 5.3545455 46 7 46 L 43 46 C 44.645455 46 46 44.645455 46 43 L 46 7 C 46 5.3545455 44.645455 4 43 4 L 7 4 z M 7 6 L 43 6 C 43.554545 6 44 6.4454545 44 7 L 44 43 C 44 43.554545 43.554545 44 43 44 L 7 44 C 6.4454545 44 6 43.554545 6 43 L 6 7 C 6 6.4454545 6.4454545 6 7 6 z M 22.5 13 C 17.26514 13 13 17.26514 13 22.5 C 13 27.73486 17.26514 32 22.5 32 C 24.758219 32 26.832076 31.201761 28.464844 29.878906 L 36.292969 37.707031 L 37.707031 36.292969 L 29.878906 28.464844 C 31.201761 26.832076 32 24.758219 32 22.5 C 32 17.26514 27.73486 13 22.5 13 z M 22.5 15 C 26.65398 15 30 18.34602 30 22.5 C 30 26.65398 26.65398 30 22.5 30 C 18.34602 30 15 26.65398 15 22.5 C 15 18.34602 18.34602 15 22.5 15 z"/></svg>
+            <p>Consulta Marcajes</p>
+          </div>
+          <div class="search__category__wrapper__box">
+           
+            <i class="fa-solid fa-box-tissue icon"></i>
+            <p>Reporte horas</p>
+          </div>
+          <div class="search__category__wrapper__box">
+            <i class="fa-solid fa-box icon"></i>
+            <p>Soliciteud Vacaciones</p>
+          </div>
+          <div class="search__category__wrapper__box">
+            <i class="fa-solid fa-clock-rotate-left icon"></i>
+            <p>Soliciteud Ausencias</p>
+          </div>
+          
+          <div class="search__category__wrapper__box">
+            <i class="fa-solid fa-bullhorn icon"></i>
+            <p>Comunicados</p>
+          </div>
+          <div class="search__category__wrapper__box">
+            <i class="fa-solid fa-people-group icon"></i>
+            <p>Who is who</p>
+          </div>
+          <div class="search__category__wrapper__box">
+            <i class="fa-solid fa-users-rays icon"></i>
+            <p>ServiceOne</p>
+          </div>
+        </div>
+        <div class="search__category__wrapper-bottombar">
+          <i class="fa-solid fa-chevron-down"></i>
+
+        </div>
+      </div>
+     </section>
+    
+</html>
